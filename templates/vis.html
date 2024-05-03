@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Bar Chart with D3.js</title>
+    <style>
+
+        h1 {
+            text-align: center;         
+        }
+        .hsec {
+            text-align: center;
+          
+        }
+        #bar{
+            background-color: wheat;
+               /* display: inline-block; */
+            
+        }
+        #chart{
+            background-color: wheat;
+               display: inline-block;
+            
+        }
+        #chart_top{
+            background-color: wheat;
+               display: inline-block;
+        }
+        #bold-sec{
+            font-weight: bold;
+            text-align: left;
+        }
+        #bold-top{
+            font-weight: bold;
+            text-align: left;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Intensity Bar Chart </h1>
+    <svg id="bar"></svg>
+
+    <h1 id='hsec'>Sector Pie Chart </h1>
+    <p id="bold-sec"> Hover it to Display tags</p>
+    <svg id="chart"></svg>
+
+    <h1 id='htop'> Topic Pie Chart </h1>
+    <p id="bold-top"> Hover it to Display tags</p>
+    
+    <svg id="chart_top"></svg>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="{% static 'sec.js' %}">  </script>
+    <script src="{% static 'v.js' %}">  </script>
+    <script src="{% static 'topic.js' %}">  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
