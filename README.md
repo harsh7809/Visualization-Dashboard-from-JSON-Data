@@ -1,0 +1,1 @@
+Dynamic Visualization Dashboard: In this  project showcasing a Django REST Framework application that utilizes D3.js to dynamically generate pie charts and bar charts from JSON data fetched via REST API. This project includes functionalities to save JSON data to a database and retrieve it through REST endpoints for visualization."
